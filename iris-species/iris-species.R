@@ -174,5 +174,7 @@ print(fit.rf)
 predictions <- predict(fit.lda, validation)
 confusionMatrix(predictions, validation$Species)
 
+################### END OF PART 1 TUTORIAL ################## 
+
 
   
